@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - H&K Fashion Hub</title>
+    <link rel="stylesheet" href="../style/style.css">       
+</head>
+<body>
+    <header>
+        <h1>H&K Fashion Hub</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Get in Touch</h2>
+                <p>We'd love to hear from you! Whether you have questions about our products, need assistance with an order, or want to share feedback, we're here to help. Reach out to us and we'll get back to you as soon as possible.</p>
+            </div>
+            <div class="hero-image">
+                <img src="../images/fashion.jpg" alt="Contact H&K Fashion Hub" class="hero-img">
+            </div>
+        </section>
+
+        <!-- Contact Information Section -->
+        <section class="contact-info-section">
+            <div class="contact-info-content">
+                <h2>✨ Contact Information</h2>
+                <div class="contact-cards">
+                    <div class="contact-card">
+                        <div class="contact-icon">📧</div>
+                        <h3>Email Us</h3>
+                        <p>hassantaiwo204@gmail.com</p>
+                        <p>We'll respond within 24 hours</p>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">📞</div>
+                        <h3>Call Us</h3>
+                        <p>+234 704 385 5091</p>
+                        <p>Mon-Fri: 9AM-6PM (WAT)</p>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">📍</div>
+                        <h3>Visit Us</h3>
+                        <p>11, Mustapha Street</p>
+                        <p>Odokekere Via Ikorodu, Lagos State, Nigeria</p>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">💬</div>
+                        <h3>Live Chat</h3>
+                        <p>Available 24/7</p>
+                        <p>Get instant help online</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Form Section -->
+        <section class="contact-form-section">
+            <div class="contact-form-content">
+                <h2>✨ Send Us a Message</h2>
+                <p>Fill out the form below and we'll get back to you as soon as possible.</p>
+                
+                <form id="contactForm" class="contact-form">
+                    <div class="form-group">
+                        <label for="firstName">First Name *</label>
+                        <input type="text" id="firstName" name="firstName" required>
+                        <span class="error-message" id="firstNameError"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="lastName">Last Name *</label>
+                        <input type="text" id="lastName" name="lastName" required>
+                        <span class="error-message" id="lastNameError"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" required>
+                        <span class="error-message" id="emailError"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone">
+                        <span class="error-message" id="phoneError"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">Subject *</label>
+                        <select id="subject" name="subject" required>
+                            <option value="">Select a subject</option>
+                            <option value="general">General Inquiry</option>
+                            <option value="order">Order Support</option>
+                            <option value="product">Product Question</option>
+                            <option value="return">Return/Exchange</option>
+                            <option value="feedback">Feedback</option>
+                            <option value="complaint">Complaint</option>
+                            <option value="other">Other</option>
+                        </select>
+                        <span class="error-message" id="subjectError"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Please describe your inquiry in detail..." required></textarea>
+                        <span class="error-message" id="messageError"></span>
+                    </div>
+                    
+                    <div class="form-group checkbox-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="newsletter" name="newsletter">
+                            <span class="checkmark"></span>
+                            Subscribe to our newsletter for fashion updates and exclusive offers
+                        </label>
+                    </div>
+                    
+                    <div class="form-group checkbox-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="privacy" name="privacy" required>
+                            <span class="checkmark"></span>
+                            I agree to the <a href="#" class="privacy-link">Privacy Policy</a> and <a href="#" class="privacy-link">Terms of Service</a> *
+                        </label>
+                        <span class="error-message" id="privacyError"></span>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+                
+                <div id="successMessage" class="success-message" style="display: none;">
+                    <h3>✅ Thank You!</h3>
+                    <p>Your message has been sent successfully. We'll get back to you within 24 hours.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq-section">
+            <h2>✨ Frequently Asked Questions</h2>
+            <div class="faq-content">
+                <div class="faq-item">
+                    <h3>How long does delivery take?</h3>
+                    <p>Most orders are delivered within 2-3 business days across Nigeria. Express delivery options are available for urgent orders.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What is your return policy?</h3>
+                    <p>We offer a 30-day return policy for unused items in original packaging. Returns are free and easy to process.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Do you offer international shipping?</h3>
+                    <p>Currently, we only ship within Nigeria. We're working on expanding our shipping to other African countries soon.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How can I track my order?</h3>
+                    <p>Once your order ships, you'll receive a tracking number via email and SMS. You can track your package in real-time.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Social Media Section -->
+        <section class="social-section">
+            <h2>✨ Follow Us</h2>
+            <p>Stay connected with us on social media for the latest fashion trends, new arrivals, and exclusive offers.</p>
+            <div class="social-links">
+                <a href=https://www.facebook.com/taiwo.hassan.3914"" class="social-link">Facebook</a>
+                <a href="https://www.instagram.com/husseinhassan156?igsh=MTJidHBobnBrc3Bndw==" class="social-link">Instagram</a>
+                <a href="https://x.com/HassanTaiyeOse1?t=XnbmWLhhBXIeiwhVr_VfJw&s=09" class="social-link">Twitter</a>
+                <a href="#" class="social-link">WhatsApp</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>H&K Fashion Hub</h3>
+                <p>Your one-stop destination for the latest fashion trends and styles. We bring you quality clothing, accessories, and more.</p>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/taiwo.hassan.3914" class="social-link">Facebook</a>
+                    <a href="https://www.instagram.com/husseinhassan156?igsh=MTJidHBobnBrc3Bndw==" class="social-link">Instagram</a>
+                    <a href="https://x.com/HassanTaiyeOse1?t=XnbmWLhhBXIeiwhVr_VfJw&s=09" class="social-link">Twitter</a>
+                </div>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Categories</h4>
+                <ul>
+                    <li><a href="#">Men's Fashion</a></li>
+                    <li><a href="#">Women's Fashion</a></li>
+                    <li><a href="#">Accessories</a></li>
+                    <li><a href="#">Shoes</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Contact Info</h4>
+                <p>📧 hassantaiwo204@gmail.com</p>
+                <p>📞 +234 704 385 5091</p>
+                <p>📍 11,Mustapha street, Odokekere Via Ikorodu, Lagos State, Nigeria</p>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 H&K Fashion Hub. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="../script/app.js"></script>
+</body>
+</html>

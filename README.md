@@ -1,6 +1,13 @@
 
 # 👗 H&K Fashion Hub Website
 
+## Live Demo
+
+The site is hosted at:  
+[H&K Fashion Hub](https://hassantaiye.github.io/H-K-fashionhub/index.html)
+
+---
+
 A simple **3-page fashion e-commerce website** built using **HTML, CSS, and JavaScript**.  
 This project showcases modern fashion products, an about page for the brand, and a contact page with a functional form.
 
@@ -59,10 +66,6 @@ H\&K-Fashion-Hub/
 
 ---
 
-## 📸 Screenshots
-*(Optional: Add screenshots of your homepage, products page, and contact form here once deployed.)*
-
----
 
 ## 💻 Usage
 1. Clone this repository or download it as a ZIP file.  
@@ -85,8 +88,6 @@ Created by **Hassan Taiye Oseni**
 - Phone: +234 704 385 5091  
 
 &copy; 2025 H&K Fashion Hub. All Rights Reserved.  
-```
 
----
 
 
